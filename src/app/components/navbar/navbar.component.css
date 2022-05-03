@@ -1,0 +1,9 @@
+@media screen and (min-width:992px) {
+   #register{ 
+      margin-left: 5px;
+   }}
+
+#github_link{
+   color: black;  
+   text-decoration: none;
+}
