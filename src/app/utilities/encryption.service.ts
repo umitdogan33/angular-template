@@ -18,7 +18,6 @@ export class EncryptionService {
 
   decrypt(value:string):string{
     if(value==null ||value == undefined || value == ""){
-      console.log("veri geldi servise ve null")
       return null;
   }
    return CryptoJS.AES.decrypt(value, this.key).toString(CryptoJS.enc.Utf8);
